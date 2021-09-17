@@ -1,0 +1,82 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=Tverskaya%206 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=Tverskaya%206 HTTP/1.1" 200 None
+DEBUG:root:the distance between Tverskaya 6 and mosco ring is 8.379225834026672
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:34:26] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:root:the distance between Tverskaya 6 and mosco ring is 8.379225834026672
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:34:26] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:34:30] "GET /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=TEST HTTP/1.1" 200 None
+DEBUG:root:the distance between TEST and mosco ring is 40.32157838402804
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:34:56] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:35:25] "GET /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=KALB HTTP/1.1" 200 None
+DEBUG:root:the distance between KALB and mosco ring is 20.782704833106255
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:35:36] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:35:41] "GET /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=MAAD HTTP/1.1" 200 None
+DEBUG:root:the distance between MAAD and mosco ring is 25.2031711416931
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:35:49] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=MAAD HTTP/1.1" 200 None
+DEBUG:root:the distance between MAAD and mosco ring is 25.2031711416931
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:35:49] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:35:59] "GET /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=1 HTTP/1.1" 200 148
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:36:04] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:36:07] "GET /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=NFOKO HTTP/1.1" 200 152
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:36:23] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:36:26] "GET /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=BEIRUT HTTP/1.1" 200 None
+DEBUG:root:the distance between BEIRUT and mosco ring is 21.924824629663068
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:36:38] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=barja HTTP/1.1" 200 None
+DEBUG:root:the distance between barja and mosco ring is 35.4460772761442
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:36:59] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=chhim HTTP/1.1" 200 152
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:37:14] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=chhim HTTP/1.1" 200 152
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:37:14] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=chehim HTTP/1.1" 200 153
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:37:31] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=asf HTTP/1.1" 200 None
+DEBUG:root:the distance between asf and mosco ring is 24.350169772470704
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:46:47] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=asf HTTP/1.1" 200 None
+DEBUG:root:the distance between asf and mosco ring is 24.350169772470704
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:46:54] "POST /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=BEIRUT HTTP/1.1" 200 None
+DEBUG:root:the distance between BEIRUT and mosco ring is 21.924824629663068
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:47:08] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:47:37] "GET /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=BEIRUT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:47:44] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:47:50] "GET /pageOne HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=BEIRUT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:47:55] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:48:00] "GET /pageOne HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:51:08] "GET /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:51:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=Beirut HTTP/1.1" 200 None
+DEBUG:root:the distance between Beirut and mosco ring is 1958.8139885181058
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:51:23] "POST /pageOne HTTP/1.1" 200 -
