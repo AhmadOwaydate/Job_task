@@ -80,3 +80,10 @@ DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yan
 DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=Beirut HTTP/1.1" 200 None
 DEBUG:root:the distance between Beirut and mosco ring is 1958.8139885181058
 INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 01:51:23] "POST /pageOne HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 17:55:41] "GET /pageOne HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 17:55:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): geocode-maps.yandex.ru:443
+DEBUG:urllib3.connectionpool:https://geocode-maps.yandex.ru:443 "GET /1.x/?apikey=c97769fc-875c-4678-8139-08b6e7400a8e&format=json&geocode=BEIRUT HTTP/1.1" 200 None
+DEBUG:root:the distance between BEIRUT and mosco ring is {distance} miles
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 17:55:45] "POST /pageOne HTTP/1.1" 200 -

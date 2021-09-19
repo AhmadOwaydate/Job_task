@@ -1,9 +1,9 @@
+
 import unittest
 import requests
-
-from ..middleware.get_cordinates import get_cordinates
-from ..middleware.get_distance import get_distance_to_mscow_ring
-from ..middleware.check_if_in_mkad import check_if_in_mkad
+from check_if_in_mkad import check_if_in_mkad
+from get_distance import get_distance_to_mscow_ring
+from get_cordinates import get_cordinates
 
 
 class TestApp(unittest.TestCase):
@@ -29,8 +29,8 @@ class TestApp(unittest.TestCase):
             response = requests.get(
                 url="https://geocode-maps.yandex.ru/1.x/?"
                 + "apikey=c97769fc-875c-4678-8139-08b6e7400a8e"
-                + "&format=json" +
-                "&geocode=Tverskaya 6")
+                + "&format=json"
+                + "&geocode=Tverskaya 6")
             response = response.json()
 
             coordinates = get_cordinates(response)
@@ -39,8 +39,8 @@ class TestApp(unittest.TestCase):
             response = requests.get(
                 url="https://geocode-maps.yandex.ru/1.x/?"
                 + "apikey=c97769fc-875c-4678-8139-08b6e7400a8e"
-                + "&format=json" +
-                "&geocode=Moscow Ring Road")
+                + "&format=json"
+                + "&geocode=Moscow Ring Road")
             response = response.json()
             coordinates = get_cordinates(response)
             self.assertEqual(coordinates, [37.620312, 55.729747])
@@ -49,8 +49,8 @@ class TestApp(unittest.TestCase):
             response = requests.get(
                 url="https://geocode-maps.yandex.ru/1.x/?"
                 + "apikey=c97769fc-875c-4678-8139-08b6e7400a8e"
-                + "&format=json" +
-                "&geocode=this is a wrong address okay?")
+                + "&format=json"
+                + "&geocode=this is a wrong address okay?")
             response = response.json()
             coordinates = get_cordinates(response)
             self.assertEqual(coordinates, [])
