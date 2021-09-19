@@ -16,8 +16,14 @@ Project is created with:
 *Docker
 
 <h3>run the folowing commands:</h3>
-*pip install requirements.txt
-*python app.py
+*docker build -t test-app .
+*docker run -p 5000:5000 test-app
+
+go to localhost:5000/pageOne
+
+<h3>for testing purposes</h3>
+run command :
+* docker exec 032b54b4af16 python test_app.py
 
 <h3>contact information</h3>
 author: Ahmad owaydate

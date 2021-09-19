@@ -14,6 +14,8 @@ COPY  app.py .
 
 COPY  app.log .
 
+COPY test_app.py .
+
 COPY  ./templates ./templates
 
 COPY ./middleware ./middleware 

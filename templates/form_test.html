@@ -1,10 +1,15 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>Fill Out This Form</h1>
+<h1 style="text-align: center;">Fill Out This Form</h1>
 
 <form action="/pageOne" method="POST">
- An address: <input type="text" name="address">
- <br/>
-
- <input type="submit"></form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Address</label>
+        <input type="text" name="address" class="form-control" placeholder="Enter address"
+            aria-describedby="addressHelp">
+        <small id="addressHelp" class="form-text text-muted">Please enter an address here to find out the distance
+            between it and moscow</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 {% endblock %}

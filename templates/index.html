@@ -1,10 +1,13 @@
 {% extends "layout.html" %}
 {% block content %}
 {% if greeting %}
- I just wanted to say
- <em style="color: green; font-size: 2em;">{{ greeting }}
-</em>.
+<h1 style="text-align: Left;">Output</h1>
+<div style="width:500px;height:100px;border:2px solid #000; text-align: center;">
+    <h3 style="color: green; font-size: 2em; text-align: center;">{{ greeting }}
+    </h3>
+</div>
+
 {% else %}
- <em>Hello</em>, world!
+<em>Hello</em>, world!
 {% endif %}
 {% endblock %}
